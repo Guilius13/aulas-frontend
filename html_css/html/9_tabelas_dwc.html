@@ -1,0 +1,60 @@
+<!-- 
+    Tabelas
+    aula do curso de Desenvolvimento Web Completo (dwc)
+
+        Tabela = <table></table>
+            atributos: border=""; width="".
+        Cebeçalho da tabela (table header)= <th></th>
+        Linha da tabela (table row) = <tr></tr>
+        Dados da tabela (table data) = <td></td>
+            atributos: colspan="" - agrupa colunas (mescla) de acordo com o número informado no atributo. Ex. colspan="2" - a td vai ocupar o espaço de duas colunas;
+                        rowspan="" - mescla linhas com a mesma lógica do colspan.
+    
+ -->
+
+ <!DOCTYPE html>
+ <html>
+     <head>
+         <meta charset="utf-8">
+         <title>Página principal</title>
+     </head>
+     <body>
+        <h2>Produtos</h2>
+
+        <table border="2" width="100%"> <!--Início da tabela-->
+            <tr> <!--Primeira linha da tabela--> 
+                <th>Código</th> <!--Cabeçalho da tabela(coluna 1)-->
+                <th>Produto</th> <!--Cabeçalho da tabela (coluna 2)-->
+                <th>Preço</th> <!--Cabeçalho da tabela (coluna 3)-->
+            </tr> <!--Fim da primeira linha da tabela-->
+
+            <tr> <!--Segunda linha da tabela-->
+                <td>001</td><!--Elemento da 2 linha da tabela (coluna 1)-->
+                <td>Notebook</td><!--Elemento da 2 linha da tabela (coluna 2)-->
+                <td>R$ 2.500,99</td><!--Elemento da 2 linha da tabela (coluna 3)-->
+            </tr> <!--Fim da segunda linha da tabela-->
+
+            <tr> <!--Terceira linha da tabela-->
+                <td>002</td><!--Elemento da 3 linha da tabela (coluna 1)-->
+                <td>Tablet</td><!--Elemento da 3 linha da tabela (coluna 2)-->
+                <td>R$ 999,99</td><!--Elemento da 3 linha da tabela (coluna 3)-->
+            </tr> <!--Fim da segunda linha da tabela-->
+
+            <tr> <!--Quarta linha da tabela-->
+                <td rowspan="2">Desconto</td> 
+                <td colspan="2">cupom1 -R$ 10,0</td>
+            </tr>
+            
+            <tr> <!--Quinta linha da tabela-->
+                <td colspan="2">cupom2 -R$12,0</td>
+            </tr>
+
+            <tr> <!--Sexta linha da tabela-->
+                <td>Total</td>
+                <td colspan="2">R$ 3.478,98</td>
+            </tr>
+        </table> <!--Fim da tabela-->
+
+        <img src="./Imagens/ferrari.jpg" alt="Imagem de uma ferrari vermelha" width="100%"><!--width com porcentagem determina a porcentagem da página que o elemento vai ocupar.-->
+     </body>
+ </html>
