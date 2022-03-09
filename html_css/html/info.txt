@@ -1,1 +1,2 @@
 dwc = Desenvolvimento Web Completo - curso Udemy
+Por padrão, a página principal de um site vai ser a index.html
