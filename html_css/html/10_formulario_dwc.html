@@ -1,0 +1,59 @@
+<!-- 
+    Formulários
+    aula do curso de Desenvolvimento Web Completo (dwc)
+    
+    Formulário = <form></form>
+        atributos: action="".
+    Caixa de input = <input />
+        atributos: type="" (valores: text, password, button, submit, radio, checkbox); name=""; value="".
+    Caixa de seleção = <select></select>
+        atributos: name="".
+    Opções da caixa de seleção = <option></option>
+        atributos: value="".
+    Caixa de texto = <textarea></textarea>
+ -->
+
+ <!DOCTYPE html>
+ <html>
+     <head>
+         <meta charset="utf-8">
+         <title>Página principal</title>
+     </head>
+     <body>
+        <h2>Login</h2>
+        <form>
+            Login:<br />
+            <input type="text" name="login"/><br /> 
+            Senha:<br />
+            <input type="password" name="senha" /><br />
+            <input type="button" value="Logar"/>
+
+        </form>
+
+        <h2>Cadastre-se</h2>
+        <form>
+            <input type="text" name="login"/><br /><br />
+            Sexo: <br />
+            <input type="radio" name="sexo" value="M" /> Masculino <br />
+            <input type="radio" name="sexo" value="F" /> Feminino <br /><br /> <!--Para evitar que se possa clicar em vários inputs do tipo radio ao mesmo tempo, eles precisam ter o mesmo valor no atributo name="" -->
+
+            Interesses<br />
+            <input type="checkbox" name="interesses"/>Futebol<br />
+            <input type="checkbox" name="interesses" /> Cursos <br />
+            <input type="checkbox" name="interesses" /> Moda<br /><br />
+
+            Estado<br />
+            <select name="estado">
+                <option value="sp">SP</option>
+                <option value="mg">MG</option>
+                <option value="rj">RJ</option>
+                <option value="rs">RS</option>
+            </select> <br /> <br />
+
+            Observações: <br />
+            <textarea></textarea><br />
+            
+            <input type="submit" value="Cadastrar"/>
+        </form>
+     </body>
+ </html>
