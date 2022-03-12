@@ -1,0 +1,86 @@
+<!--
+Classes e id's
+Enquanto um ID é um identificador único, aplicado somente a um elemento, a CLASSE se aplica a um agrupamento de elementos.
+
+OBS: Seletores servem para uma formatação geral, enquanto a classe define formatações específicas.
+
+CLASSE (sintaxe):
+.nomedaclasse{
+    propriedade: valor;
+}
+No elemento que pertencerá à classe você deverá usar o atributo class="nomedaclasse"
+
+ID (sintaxe):
+#nomedoID{
+    propriedade: valor;
+}
+No elemente identificado pelo ID você deverá usar o atributo id="nomedoID"
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <title>Classes e ID's</title>
+        <style type="text/css">
+
+            p{
+                color: red;
+            }
+
+            h1{
+                color: green;
+            }
+
+            .azul {
+                color: blue;
+            }
+
+            #cabecalho{
+                background: green;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <div>
+            <div id="cabecalho">
+                <ul>
+                    <li>Home</li>
+                    <li>Quem somos</li>
+                    <li>Contato</li>
+                </ul>
+            </div>
+            <div id="conteudo-principal">
+                <div class="coluna">
+                    Coluna 1
+                </div>
+                <div class="coluna">
+                    Coluna 2
+                </div>
+                <div class="coluna">
+                    Coluna 3
+                </div>
+            </div>
+        </div>
+
+
+        <h1 class="azul">Estilo CSS (cascading style sheets)</h1>
+        <p class="azul">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+        </p>
+        <h1>Formatações</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+        </p>
+    </body>
+</html>
