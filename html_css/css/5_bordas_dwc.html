@@ -1,0 +1,51 @@
+<!--
+Bordas
+Aula do curso de Desenvolvimento Web Completo.
+[link w3schools https://www.w3schools.com/css/css_border.asp]
+
+SINTAXE = border: espessura tipo cor;
+ex.: border: 1px solid red;
+
+Tipos de borda:
+
+    dotted
+    dashed
+    solid
+    double
+    groove
+    ridge
+    inset
+    outset
+    none
+    hidden
+
+Algumas propriedades de borda: border-top, border-right, border-bottom, border-left, border-color. border-width, border-style.
+
+Comentários em css: /* comentário */
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <title>Bordas</title>
+        <style type="text/css">
+            #conteudo{
+                /*border: 10px double red;*/
+                border-color: red green yellow blue; /*Sem´re começa do topo e segue no sentido horário */
+                border-width: 15px 10px; /*Ao passar dois valores, o primeiro é válido para a borda superior e inferior e o outro é válido para as bordas laterais */
+                border-style: solid; 
+
+            }
+        </style>
+
+    </head>
+    <body>
+        <div id="conteudo">
+            Bordas<br />
+            Bordas<br />
+            Bordas<br />
+        </div>
+    </body>
+</html>

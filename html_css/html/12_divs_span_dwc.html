@@ -1,0 +1,72 @@
+<!--
+Div's e span
+Aula do curso de Desenvolvimento Web Completo. (Originalmente aula 4 da parte de CSS)
+
+Div's <div></div> servem para criar divisões na página, organizar o conteúdo em blocos. A div, por padrão, ocupa todo o espaçamento da tela.Ela é um elemento do tipo BLOCK.
+
+Span funciona como uma div, mas ele é um elemento INLINE, ou seja, só ocupa o espaçamento do próprio elemento, e não o espaçamento da tela.
+
+DIV's e SPAN's servem para criar conteiners genéricos.
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="utf-8">
+        <title>Div's e span</title>
+        <style type="text/css">
+
+            #topo{
+                background: blue;
+            }
+
+            #conteudo{
+                background: red;
+            }
+
+            #rodape{
+                background: green;
+            }
+
+            .produto{
+                background: gray;
+                margin: 10px;
+            }
+
+            .azul{
+                color: blue;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <div id="topo">
+           <img src="../../projetos/projeto1_UNES_html_dwc.html/imagens/logo.png" alt="logo" width="200">
+           <ul>
+               <li>Home</li>
+               <li>Produtos</li>
+               <li>Contato</li>
+           </ul>
+        </div>
+
+        <div id="conteudo">
+            <div class="produto">
+                Produto 1
+            </div>
+            <div class="produto">
+               Produto 2
+            </div>
+            <div class="produto">
+                Produto 3
+            </div>
+        </div>
+
+        <div id="rodape">
+            Todos os <span class="azul">direitos</span> reservados
+        </div>
+
+    </body>
+</html>
