@@ -1,0 +1,62 @@
+<!--
+    Cor e imagem de fundo
+    Curso de desenvolvimento web completo
+
+    Cor de fundo
+    Atributo - background-color => valor: cores.
+
+    Imagem de fundo
+    Atributo - background-image => Sintaxe:
+    background-image: url('endereço_exemplo.png');
+    background-repeat => valores: no-repeat; repeat; repeat-x (repete na horizontal); repeat-y (repete na vertical);
+    background-attachment => valores: fixed; scroll;
+    background-position => valores: center; lef; right - 1º valor; center; top; bottom - 2º valor  (recebe dois valores, o primeiro é o posicionamento da imagem na horizontal e o segundo é na vertical).
+
+    Utilizando somente o atributo background
+    background: color url('') repeat attachment position position;
+    
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Cor e imagem de fundo</title>
+        <style type="text/css">
+            /*.fundo{
+                background-color: bisque;
+            }*/
+
+            body{
+                background-image: url('./imagens/yoshi.png');
+                /* repeat-x, repeat-y, no-repeat, repeat*/
+                background-repeat: no-repeat;
+                /* scrool, fixed */
+                background-attachment: fixed;
+                /* 
+                Primeiro valor: left, center, right 
+                Segundo valor: top, center, bottom
+                */
+                background-position: center center;
+            }
+
+        </style>
+    </head>
+    <body>
+        <h1>Conteúdo de título 1</h1>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+
+        <br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br />
+
+        <br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br />
+        <br /><br /><br /><br /><br /><br />
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        </p>
+    </body>
+</html>
