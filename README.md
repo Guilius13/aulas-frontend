@@ -1,4 +1,4 @@
-#Aulas e projetos de front-end
+# Aulas e projetos de front-end
 
 Neste repositório estão anotações e projetos utilizados para a aprendizagem das diversas _stacks_ de _front-end_.
 
@@ -8,14 +8,14 @@ Neste repositório estão anotações e projetos utilizados para a aprendizagem 
 - JAVASCRIPT
 - REACT
 
-###Aulas atualizadas até o momento:
+### Aulas atualizadas até o momento:
 - [x] HTML
 - [x] CSS
 - [ ] BOOTSTRAP
 - [ ] JAVASCRIPT
 - [ ] REACT
 
-###Projetos finalizados:
+### Projetos finalizados:
 1. Site UNES (prática de HTML);
 2. Site Anna Bella (prática de CSS e HTML).
 
