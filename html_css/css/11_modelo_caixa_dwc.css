@@ -1,0 +1,42 @@
+/*
+Modelo de caixa
+Ao utlizar um padding, ele passa a fazer parte do tamanho final da sua caixa. Ex.: se o width do elemento é 150px e o padding 20px, o tamanho final será 170px.
+
+Ao definir os 4 valores no atributo padding, o primeiro será o top e os demais seguem em sentido horário.
+
+Padding:
+1 valor = todos os lados
+2 valores = top/bottom - left/right
+4 valores = top - right - bottom - left
+
+O atributo MARGIN segue a mesma lógica do PADDING
+
+Quando aplicamos a margin em dois elementos contíguos, as margens se soprepõem. Ex.: margin-bottom 30px + margin-top 20px do elemento que está embaixo, ficará no total com 30px de margin, e não 50.
+*/
+
+
+.conteudo{
+    border: 1px solid red;
+    /*
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    */
+
+    /*top right bottom left
+    padding: 20px 15px 10px 5px;*/
+
+    /*top/bottom - left/right
+    padding: 20px 5px; */
+
+    padding: 20px;
+    width: 150px;
+    margin: 10px;
+}
+
+.conteudo2{
+    margin: 5px;
+    width: 150px;
+    border: 1px solid red;
+}
