@@ -1,0 +1,45 @@
+/*
+A propriedade float cria um fluxo diferenciado para que os conteúdos flutuem à direita ou esquerda. O elemento com float sai do fluxo normal.
+
+O elemento seguinte, para ficar abaixo dos elementos flutuantes, precisa usar o atributo clean com o valor do float do elemento flutuante. Ex.: clear: left;
+Ele "limpa" o fluxo.
+
+IMPORTANTE: Conteúdos flutuantes não expandem a caixa-pai. Nesse caso, você precisa criar uma outra <div></div> (ou outro elemento, como um parágrafo, por exemplo) abaixo (dentro da mesma caixa-pai) e usar o atributo clear para limpar o fluxo. A div pode ficar vazia, não há problema.
+*/
+
+#principal{
+    border: 5px solid red;
+    background: green;
+}
+
+.conteudo{
+    background: blue;
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin: 10px;
+}
+
+/*
+.conteudo1{
+    background: red;
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    float: left;
+}
+*/
+
+.conteudo_zero{
+    background: red;
+    border: 1px solid gray;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+
+.clear{
+    clear: both;
+}
