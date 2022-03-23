@@ -1,2 +1,11 @@
 /*
+O atributo display pode mudar o tipo do elemento que vem por padrão.
+    display: inline;
+    display: block;
+    display: inline-block;
 */
+
+.borda{
+    border: 1px solid red;
+    display: inline-block;
+}

@@ -1,6 +1,15 @@
 <!--
     Aula Elementos inline, block e inline block
     Curso de desenvolvimento web completo
+
+    Elementos BLOCK (<h1>, <p>, <table>) têm uma largura que ocupa todo o espaçamento da tela.
+    Além disso, elementos block ficam um abaixo do outro.
+
+    Elementos INLINE (<a>, <span>, <img>) ficam um à frente do outro e sua largura é de acordo com o seu conteúdo.
+
+    Elementos INLINE-BLOCK (display: inline-block) têm a largura definida pela seu conteúdo, mas ficam um abaixo do outro quando o conteúdo não cabe na mesma linha. São elementos híbridos.
+
+    PS.: o atributo display pode receber como valor qualquer uma das três descrições (block, inline ou inline-block)
 -->
 <!DOCTYPE html>
 <html>
@@ -10,6 +19,13 @@
         <link rel="stylesheet" type="text/css" href="./14_inline_block_inlineBlock_dwc.css">
     </head>
     <body>
+        <span class="borda">Inline 1</span>
+        <span class="borda">Inline 2</span>
 
+
+        <!--
+        <div class="borda">Bloco 1</div> Por padrão é elemento block
+        <div class="borda">Bloco 2</div>
+        -->
     </body>
 </html>
