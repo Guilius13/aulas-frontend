@@ -1,0 +1,52 @@
+/*
+position: absolute; => O elemento sai do fluxo normal da página e não afeta os outros elementos da página. Também é possível utilizar propriedades de deslocamento.
+
+position: absolute;
+    top: 0px;
+    right: 20px;
+A posição absoluta é calculada em relação ao container-pai, se este tiver uma posição diferente da estática, ou ao corpo da página.
+
+position: fixed; => Fica parado mesmo quando você rola seu documento. Ele fica fixo em relação à janela do navegador.
+Elementos com position fixed podem ser usados em um chat, por exemplo, em que, por mais que você navegue pela página, ele se mantém fixo.
+*/
+body{
+    background: #007fc7;
+}
+
+#container{
+    background: #FFF;
+    width: 800px;
+    margin: 10px auto;
+    padding: 10px;
+    position: relative;
+
+}
+
+p{
+    width: 300px;
+}
+
+.absolute{
+    border: 1px solid red;
+    background: #f2f2f2;
+    position: absolute;
+    top: 80px;
+    right: 80px;
+}
+
+.fixed{
+    border: 1px solid red;
+    background: #f2f2f2;
+    margin: 0px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}
+
+.relative{
+    border: 1px solid red;
+    position: relative;
+    /* top, right, bottom, left*/
+    top: -20px;
+    left: 80px;
+}
