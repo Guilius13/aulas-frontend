@@ -1,0 +1,76 @@
+<!--
+    Formatando links
+    Aula do curso de desenvolvimento web completo
+
+    Links são um pouco diferentes para formatar. Eles possuem estados.
+    1) Links não-visitados (estado padrão de um link)
+        a:link{
+
+        }
+
+    2)Links visitados
+        a:visited{
+
+        }
+
+    3)Links Hover [passa o cursor sobre o link]
+        a:hover{
+
+        }
+
+    4)Links ativos [quando clicado]
+        a:active{
+
+        }
+
+    text-decoration: none;  -- retira o underline do link
+
+    ATENÇÃO: A ORDEM DE FORMATAÇÃO DOS ESTADOS DEVEM SER MANTIDAS (não-visitados, visited, hover, active).
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Formatando links</title>
+        <style type="text/css">
+
+            a{
+                padding: 5px 10px;
+                text-decoration: none;
+            }
+
+            /*Links não-visitados*/
+            a:link{
+                color: #b9c941;
+            }
+
+            /*Links visitados*/
+            a:visited{
+                color: #c0c0c0;
+            }
+
+            /*Estados com a mesma formatação podem ser configurados juntos. Ex.:
+            a:link, a:visited{
+                color: #b9c941;
+            }
+            */
+
+            /*Links Hover, passa o cursor sobre o link*/
+            a:hover{
+                color: #FFF;
+                background: #6d790f;
+            }
+
+            /*Links ativos, quando clicado*/
+            a:active{
+                color: #e4f371;
+            }
+
+        </style>
+    </head>
+    <body>
+        <a href="https://www.google.com/">Google</a> |
+        <a href="https://www.tecmundo.com.br/">TecMundo</a> |
+        <a href="http://ogloboocular.blogspot.com/">O globo ocular</a>
+    </body>
+</html>
