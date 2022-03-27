@@ -18,6 +18,7 @@ Neste repositório estão anotações e projetos utilizados para a aprendizagem 
 ### Projetos finalizados:
 1. Site UNES (prática de HTML);
 2. Site Anna Bella (prática de CSS e HTML).
+3. Site TecBlog (prática de CSS e HTML).
 
 
 As anotações fazem parte do meu estudo de diversos cursos. Entre eles:
