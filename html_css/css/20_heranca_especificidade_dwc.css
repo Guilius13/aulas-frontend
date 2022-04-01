@@ -1,0 +1,22 @@
+/*
+Ao usar dois seletores iguais, sempre o último será aplicado. A exceção é ao utilizar o texto !important. Ele indica que o atributo referido é mais importante que qualquer outro. Não deve ser usado com frequência.
+Ex.: p{
+    color: red !important;
+}
+*/
+
+*{
+    color: red; /*Mais geral*/
+}
+
+h2{
+    color: blue;
+}
+
+h2.verde{
+    color: green;
+}
+
+h2#amarelo{
+    color: yellow; /*Mais específico*/
+}
