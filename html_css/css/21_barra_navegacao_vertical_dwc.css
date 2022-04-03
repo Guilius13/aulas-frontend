@@ -1,4 +1,5 @@
 /*
+Obs: importante usar um background caso a imagem de background não carregue.
 */
 
 /*
@@ -28,11 +29,18 @@ ul a{
     color: #000;
     text-decoration: none;
     text-indent: 40px;
-    background: url(./imagens/menu.png) no-repeat;
+    background: #f7b600 url(./imagens/menu.png) no-repeat;
     line-height: 40px;
 }
 
 a:hover{
     background-position: right bottom;
+    background-color: #f99200;
+    color: #fff;
+}
+
+#home #navegacao .home a, #sobre #navegacao .sobre a{
+    background-position: right bottom;
+    background-color: #f99200;
     color: #fff;
 }
